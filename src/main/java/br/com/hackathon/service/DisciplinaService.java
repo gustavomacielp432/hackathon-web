@@ -10,7 +10,10 @@ import java.io.InputStreamReader;
 public class DisciplinaService {
 
 	private static String DIRETORIO = "/home/ec2-user/arquivos/saida_python";
+	//private static String DIRETORIO = "C:\\Users\\Gustavo\\Desktop\\saida_python";
 	private static String DIRETORIO_SAIDA = "/home/ec2-user/arquivos/saida_";
+	//private static String DIRETORIO_SAIDA = "C:\\Users\\Gustavo\\Desktop\\saida_";
+	
 	private static final String SEPARADOR = "\t";
 	
 	//recebe uma arquivo contendo valores em porcentagem de cada materia

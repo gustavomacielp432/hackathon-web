@@ -149,7 +149,7 @@
 				</div>
 				<h3>Disciplinas</h3>
 
-				<pre>http://3.17.5.69:8080/disciplina?curso={curso}</pre>
+				<pre>http://3.130.179.162:8080/disciplina?curso={curso}</pre>
 
 
 				<!-- DISCIPLINA GET -->
@@ -178,7 +178,7 @@
 curl --include \
      --request GET \
      --header "Content-Type: application/json" \
-'http://3.17.5.69:8080/disciplina?curso=vet'
+'http://3.130.179.162:8080/disciplina?curso=vet'
 								</pre>
 							</div>
 
@@ -226,7 +226,7 @@ curl --include \
 
 							<div id="disciplina-get-request-exemplo" class="tab-pane">
 								<pre>					
-http://3.17.5.69:8080/disciplina?curso=vet
+http://3.130.179.162:8080/disciplina?curso=vet
 
 
 

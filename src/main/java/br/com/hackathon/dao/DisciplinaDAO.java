@@ -16,6 +16,7 @@ public class DisciplinaDAO {
 
 	//Diretorio do arquivo que sera transformado em JSON
 	private static String DIRETORIO = "/home/ec2-user/arquivos/saida_";
+	//private static String DIRETORIO = "C:\\Users\\Gustavo\\Desktop\\saida_";
 	
 	public List<MateriaOfertada> carregaMateriasOfertadasPorCodigo(String codigo, String tipo)  {
 		HashMap<String, List<MateriaOfertada>> equivalencias = carregaMateriasOfertadas(tipo);
