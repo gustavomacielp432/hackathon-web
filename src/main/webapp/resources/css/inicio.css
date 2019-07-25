@@ -1,0 +1,51 @@
+.bola-verde {
+	border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #01998A;
+}
+.bola-roxa {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #7070DC;
+}
+.bola-amarela {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #F8AC59;
+}
+.bola-vermelha {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #ED5565;
+}
+.stat-list span,strong{
+	font-size: 14px;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #676a6c;
+}
+
+/* selected link */
+a:active {
+  color: #006080;
+}
