@@ -149,7 +149,7 @@
 				</div>
 				<h3>Disciplinas</h3>
 
-				<pre>https://18.222.28.71:8080/disciplina?curso={curso}</pre>
+				<pre>http://3.17.5.69:8080/disciplina?curso={curso}</pre>
 
 
 				<!-- DISCIPLINA GET -->
