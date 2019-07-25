@@ -14,7 +14,7 @@ font-size: 100%; font-family: inherit;  vertical-align: baseline; zoom: 1;}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
 body {line-height: 1;}
-ol, ul {list-style: none;}
+ol {list-style: none;}
 blockquote, q {quotes: none;}
 blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
 table { border-collapse: collapse; border-spacing: 0;}
@@ -38,7 +38,7 @@ p { margin-bottom: 20px;}
 a, button {-webkit-transition: all 150ms ease-in; -moz-transition: all 150ms ease-in; -o-transition: all 150ms ease-in; transition: all 150ms ease-in; color: #3598dc;}
 a:hover, a:focus { text-decoration: none; color: #007DA0; outline: none; } 
 
-ul { margin: 0; padding: 0; list-style: none; padding-left: 20px; }
+ul { margin: 0; padding: 0;  padding-left: 20px; }
 
 ::-moz-selection { text-shadow: none; background: #4D82B9 ; color: #FFF;}
 ::selection { text-shadow: none; background: #4D82B9 ; color: #FFF; }
