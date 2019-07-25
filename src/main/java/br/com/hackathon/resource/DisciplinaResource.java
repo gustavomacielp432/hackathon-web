@@ -22,7 +22,7 @@ public class DisciplinaResource {
 	@RequestMapping(
 			value = "disciplina", 
 			method = RequestMethod.GET, 
-			produces = MediaType.APPLICATION_JSON_VALUE)
+			produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8")
 	public String busca(@RequestParam String curso) {
 		DisciplinaDAO mainS = new DisciplinaDAO();
 		List<Materia> materias = mainS.carregarMaterias(curso);
